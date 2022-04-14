@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+} 
+
+.bold{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.nav-li-a{
+    color: #221E15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-li-a:hover{
+    color: brown;
+}
+
+.text-color{
+    color: #221E15;
+}
+
+.logo{
+    color: #221E15;
+    font-size: 40px;
+    top: 0;
+    left: 0;
+}
+
+.logo:hover{
+    color: brown;
+}
+
+.image-gray{
+    filter: grayscale(80%);
+    border-radius: 20%;
+}
+
+.image-gray:hover{
+    transition: .5s ease-in-out;
+    filter: grayscale(0%);
+}
+
+.target-bg{
+    background-color: #ffc18e;
+}
+
+.shadow{
+    box-shadow: 0 3px 3px rgb(0 0 0 / 10%);
+}
+
+.shadow-box{
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.white{
+    color: white;
+}
+
+.anuncio{
+font-size: 28px;
+}
+
+.off{
+    background-color: red;
+    border-radius: 100%;
+    font-size: 40px;
+    width: 100px;
+    height: 100px; 
+}
+
+.input-text{
+    border: none;
+    border-bottom: 2px solid black;
+    height: 32px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.button{
+    background-color: white;
+    border: 2px solid green;
+    width: 80px;
+    height: 40px;
+}
+
+.button:hover{
+    background-color: green;
+    color: white;
+    transition-duration: 1s;
+}
