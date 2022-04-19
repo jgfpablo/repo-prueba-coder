@@ -16,6 +16,10 @@
     padding-top: 25px;
 }
 
+.pt-100{
+    padding-top: 100px;
+}
+
 /*  class Margin */
 
 .mt-10{
@@ -72,4 +76,12 @@
 
 .mb-50{
     margin-bottom: 50px;
+}
+
+.mb-80{
+    margin-bottom: 80px;
+}
+
+.pt-50{
+    padding-top: 50px;
 }

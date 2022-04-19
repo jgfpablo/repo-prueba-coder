@@ -9,26 +9,27 @@
 	<link rel="stylesheet" href="./assets/css/flex-box.css">
 	<link rel="stylesheet" href="./assets/css/margin-padding.css">
 	<link rel="stylesheet" href="./assets/css/width-height.css">
+	<link rel="stylesheet" href="./assets/css/grid.css">
 </head>
 <body>
 
-	<header class="d-flex flex-space-around shadow  ">
+	<header class="shadow grid-header">
 
-        <a href="../index.html" class="d-flex flex-start logo flex-center ">
+		<a href="#inicio" class="section-h-1 logo-a" >
 			<img src="./assets/img/Logo.PNG" alt="Logo" width="100px"  	>
-			<span class="d-flex align-self-center text-logo">Coffee</span>
+			<span class="logo" >Coffee</span>
 		</a>
 
 
-		<nav class="d-flex w-70 ml-250 ">
+		<nav class="section-h-2">
 			
-			<ul class="d-flex align-self-center flex-start w-full ">
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="../index.html">Inicio</a></li>
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="nosotros.html">Nosotros</a></li>
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="productos.html">Productos</a></li>
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="contacto.html">Contacto</a></li>
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="eventos_y_promociones.html">Eventos y Promociones</a></li>
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="resena.html">Reseñas</a></li>
+			<ul class="nav-ul h-full">
+                    <li><a class="nav-li-a" href="../index.html">Inicio</a></li>
+                    <li><a class="nav-li-a" href="nosotros.html">Nosotros</a></li>
+                    <li><a class="nav-li-a" href="productos.html">Productos</a></li>
+                    <li><a class="nav-li-a" href="contacto.html">Contacto</a></li>
+                    <li><a class="nav-li-a" href="eventos_y_promociones.html">Eventos y Promociones</a></li>
+                    <li><a class="nav-li-a" href="resena.html">Reseñas</a></li>
                 </ul>
 			
 		</nav>
@@ -39,21 +40,23 @@
 	<main>
 
 		<section>
-			<div>
 				<img src="./assets/img/cafe-letras.png" alt="Hero" style="height: 100vh;" width="100%"> 
-			</div>
 		</section>
+
+		<div class="d-flex flex-center mb-50">
+			<h1>Productos</h1>
+		</div>
+
 
 		<section>
 
-			<div class="d-flex flex-center">
-				<h1>Productos</h1>
-			</div>
-		
-			<article>
-				<div class="d-flex align-self-center flex-center  ">
-					<img src="./assets/img/cafebombom.png" alt="Imagen" width="500px" height="500px">
-					<div class="mt-200 p-50">
+			<article class="grid-productos-article-1 mb-50">
+				
+					<div class="productos-article-section-1">
+						<img src="./assets/img/cafebombom.png" alt="Imagen" width="100%" >
+					</div>
+					
+					<div class="productos-article-section-2">
 						<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloribus nulla,
 							quia libero eveniet voluptatum iusto porro veritatis quod totam distinctio, animi atque odio,
 							perspiciatis necessitatibus. Sunt, perferendis. Dignissimos, rem?</span>
@@ -62,49 +65,60 @@
 								enim veniam rerum quisquam libero, maxime aliquid asperiores harum consequuntur perferendis minima eligendi accusamus!
 							</span>
 					</div>
-				</div>
+				
 			</article>
 
-			<article>
-				<div class="d-flex align-self-center flex-center ">
-					<img src="./assets/img/cafemoka.PNG" alt="Imagen" width="500px" height="500px">
-					<div class="mt-200 p-50">
-						<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloribus nulla,
-							quia libero eveniet voluptatum iusto porro veritatis quod totam distinctio, animi atque odio,
-							perspiciatis necessitatibus. Sunt, perferendis. Dignissimos, rem?</span>
-							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								Voluptates veritatis ipsam assumenda nisi corrupti fugiat dolor 
-								enim veniam rerum quisquam libero, maxime aliquid asperiores harum consequuntur perferendis minima eligendi accusamus!
-							</span>
-					</div>
+			<article class="grid-productos-article-1 mb-50">
+				
+				<div class="productos-article-section-1">
+					<img src="./assets/img/cafemoka.PNG" alt="Imagen" width="100%" >
 				</div>
-			</article>
+				
+				<div class="productos-article-section-2">
+					<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloribus nulla,
+						quia libero eveniet voluptatum iusto porro veritatis quod totam distinctio, animi atque odio,
+						perspiciatis necessitatibus. Sunt, perferendis. Dignissimos, rem?</span>
+						<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							Voluptates veritatis ipsam assumenda nisi corrupti fugiat dolor 
+							enim veniam rerum quisquam libero, maxime aliquid asperiores harum consequuntur perferendis minima eligendi accusamus!
+						</span>
+				</div>
 			
-			<div class="d-flex flex-center align-self-center">
-				<a class="ml-10" href="#">&laquo;</a>
-				<a class="ml-10" href="#">1</a>
-				<a class="ml-10" href="#">2</a>
-				<a class="ml-10" href="#">3</a>
-				<a class="ml-10" href="#">4</a>
-				<a class="ml-10" href="#">5</a>
-				<a class="ml-10" href="#">6</a>
-				<a class="ml-10" href="#">&raquo;</a>
-			</div>
+		</article>
+
+			
+
+		
 		</section>
+
+		<div class="d-flex flex-center align-self-center">
+			<a class="ml-10" href="#">&laquo;</a>
+			<a class="ml-10" href="#">1</a>
+			<a class="ml-10" href="#">2</a>
+			<a class="ml-10" href="#">3</a>
+			<a class="ml-10" href="#">4</a>
+			<a class="ml-10" href="#">5</a>
+			<a class="ml-10" href="#">6</a>
+			<a class="ml-10" href="#">&raquo;</a>
+		</div>
 
 	</main>
 
-	<footer class="d-flex flex-space-around mt-5">
-		<a href="#inicio" class="w-30 d-flex logo" >
-			<img src="./assets/img/Logo.PNG" alt="Logo" width="100px">
-			<span class="d-flex align-self-center text-logo">Coffee</span>
-		</a>
-	
-		<div class="d-flex align-self-center flex-end w-70 ">
-			<a href="#"><img class="ml-10" src="./assets/img/facebook-logo.png"  width="50px" alt="Facebook"></a>
-			<a href="#"><img class="ml-10" src="./assets/img/whatsapp-logo.png"  width="50px" alt="WhatsApp"></a>
-			<a href="#"><img class="ml-10" src="./assets/img/instagram-logo.png"  width="50px" alt="Instagram"></a>
+	<footer class="grid-footer shadow-t">
+
+		<div class="section-footer-1 d-flex flex-start">
+			<a href="#inicio" class="logo-a">
+				<img src="./assets/img/Logo.PNG" alt="Logo" width="100px">
+				<span class="logo-footer">Coffee</span>
+			</a>
 		</div>
+
+		<div class="section-footer-2 d-flex flex-end items-center">
+			<a href="#"><img  src="./assets/img/facebook-logo.png"  width="50px" alt="Facebook"></a>
+			<a href="#"><img  src="./assets/img/whatsapp-logo.png"  width="50px" alt="WhatsApp"></a>
+			<a href="#"><img  src="./assets/img/instagram-logo.png"  width="50px" alt="Instagram"></a>
+		</div>
+
 	</footer>
 
 </body>

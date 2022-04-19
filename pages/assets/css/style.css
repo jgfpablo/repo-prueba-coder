@@ -5,14 +5,17 @@
     padding: 0;
     text-decoration: none;
     font-family: 'Comfortaa', cursive;
+    color: #221E15;
+    list-style-type: none;
 } 
 
-.bold{
-    font-weight: bold;
-}
 
-h1{
-    font-size: 50px;
+/* HEADER CSS */
+.nav-ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
 }
 
 .nav-li-a{
@@ -25,19 +28,33 @@ h1{
     color: brown;
 }
 
-.text-color{
-    color: #221E15;
-}
-
 .logo{
     color: #221E15;
     font-size: 40px;
-    top: 0;
-    left: 0;
+}
+
+.logo-footer{
+    color: #221E15;
+    font-size: 40px;
 }
 
 .logo:hover{
     color: brown;
+}
+
+.logo-a{
+    display: flex;
+    align-items: center;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
 }
 
 .image-gray{
@@ -57,6 +74,10 @@ h1{
 .shadow{
     box-shadow: 0 3px 3px rgb(0 0 0 / 10%);
 }
+.shadow-t{
+    box-shadow: 0 -3px 3px rgb(0 0 0 / 10%);
+    margin-top: 10px;
+}
 
 .shadow-box{
     box-shadow: 0px 0px 5px 1px black;
@@ -67,8 +88,8 @@ h1{
 }
 
 .anuncio{
-font-size: 28px;
-}
+    font-size: 28px;
+    }
 
 .off{
     background-color: red;
@@ -76,6 +97,15 @@ font-size: 28px;
     font-size: 40px;
     width: 100px;
     height: 100px; 
+}
+
+.cincuenta{
+    padding-top: 25px;
+}
+
+.posicionar{
+    padding-top: 50px;
+    margin-left: 150px;
 }
 
 .input-text{
@@ -93,6 +123,12 @@ font-size: 28px;
     height: 40px;
 }
 
+.bold{
+    font-weight: bold;
+}
+.normal{
+    font-weight: normal;
+}
 .button:hover{
     background-color: green;
     color: white;

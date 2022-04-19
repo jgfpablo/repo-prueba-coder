@@ -9,26 +9,27 @@
 	<link rel="stylesheet" href="./assets/css/flex-box.css">
 	<link rel="stylesheet" href="./assets/css/margin-padding.css">
 	<link rel="stylesheet" href="./assets/css/width-height.css">
+	<link rel="stylesheet" href="./assets/css/grid.css">
 </head>
 <body>
 
-	<header class="d-flex flex-space-around shadow  ">
+	<header class="shadow grid-header">
 
-        <a href="../index.html" class="d-flex flex-start logo flex-center ">
+		<a href="#inicio" class="section-h-1 logo-a" >
 			<img src="./assets/img/Logo.PNG" alt="Logo" width="100px"  	>
-			<span class="d-flex align-self-center text-logo">Coffee</span>
+			<span class="logo" >Coffee</span>
 		</a>
 
 
-		<nav class="d-flex w-70 ml-250 ">
+		<nav class="section-h-2">
 			
-			<ul class="d-flex align-self-center flex-start w-full ">
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="../index.html">Inicio</a></li>
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="nosotros.html">Nosotros</a></li>
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="productos.html">Productos</a></li>
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="contacto.html">Contacto</a></li>
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="eventos_y_promociones.html">Eventos y Promociones</a></li>
-                    <li class="mt-10 ml-10 mr-10 nav-li "><a class="nav-li-a" href="resena.html">Reseñas</a></li>
+			<ul class="nav-ul h-full">
+                    <li><a class="nav-li-a" href="../index.html">Inicio</a></li>
+                    <li><a class="nav-li-a" href="nosotros.html">Nosotros</a></li>
+                    <li><a class="nav-li-a" href="productos.html">Productos</a></li>
+                    <li><a class="nav-li-a" href="contacto.html">Contacto</a></li>
+                    <li><a class="nav-li-a" href="eventos_y_promociones.html">Eventos y Promociones</a></li>
+                    <li><a class="nav-li-a" href="resena.html">Reseñas</a></li>
                 </ul>
 			
 		</nav>
@@ -37,13 +38,13 @@
 	
 
 	<main>
-		<section>
-			<div class="p-20">	
+		<section class="grid-contacto-article-1 mt-50">
+			
 	
-				<article>
-					<div class="d-flex flex-center p-20">
-						<a href="#"><img src="./assets/img/facebook-logo.png"  width="100px" alt="Facebook"></a>
-						<span class="w-70 d-flex  align-self-center p-20">
+				<article class="contacto-article-section-1">
+					<div class="d-flex social">
+						<a class="d-flex flex-center" href="#"><img src="./assets/img/facebook-logo.png"  width="100px" alt="Facebook"></a>
+						<span class="text-center d-flex align-self-center">
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias commodi quasi at pariatur,
 							laboriosam distinctio nesciunt tempore quis voluptatibus adipisci sed optio molestiae,
 							molestias reiciendis quas repellendus facere quisquam nobis.
@@ -51,10 +52,10 @@
 					</div>
 				</article>
 	
-				<article>
-					<div class="d-flex flex-center p-20">
-						<a href="#"><img src="./assets/img/whatsapp-logo.png"  width="100px" alt="WhatsApp"></a>
-						<span class="w-70 d-flex  align-self-center p-20">
+				<article class="contacto-article-section-2">
+					<div class="d-flex social">
+						<a class="d-flex flex-center" href="#"><img src="./assets/img/whatsapp-logo.png"  width="100px" alt="WhatsApp"></a>
+						<span class="text-center d-flex align-self-center">
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias commodi quasi at pariatur,
 							laboriosam distinctio nesciunt tempore quis voluptatibus adipisci sed optio molestiae,
 							molestias reiciendis quas repellendus facere quisquam nobis.
@@ -62,10 +63,10 @@
 					</div>
 				</article>
 	
-				<article>
-					<div class="d-flex flex-center p-20">
-						<a href="#"><img src="./assets/img/instagram-logo.png"  width="100px" alt="Instagram"></a>
-						<span class="w-70 d-flex  align-self-center p-20">
+				<article class="contacto-article-section-3">
+					<div class="d-flex social">
+						<a class="d-flex flex-center" href="#"><img src="./assets/img/instagram-logo.png"  width="100px" alt="Instagram"></a>
+						<span class="text-center d-flex align-self-center">
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias commodi quasi at pariatur,
 							laboriosam distinctio nesciunt tempore quis voluptatibus adipisci sed optio molestiae,
 							molestias reiciendis quas repellendus facere quisquam nobis.
@@ -73,9 +74,9 @@
 					</div>
 				</article>
 	
-			</div>
+			
 	
-			<article>
+			<article class="contacto-article-section-4 mt-50 mb-50">
 				<div class="d-flex flex-center">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51030.56204353248!2d-58.4037882674286!3d-34.63280399078198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca43fd14d029%3A0x2da7f029b3885ce!2sStarbucks!5e0!3m2!1ses!2sar!4v1648069111653!5m2!1ses!2sar" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 				</div>
@@ -88,17 +89,21 @@
 
 
 	<!-- FOOTER -->
-	<footer class="d-flex flex-space-around mt-5">
-		<a href="../index.html" class="w-30 d-flex logo" >
-			<img src="./assets/img/Logo.PNG" alt="Logo" width="100px">
-			<span class="d-flex align-self-center text-logo">Coffee</span>
-		</a>
+	<footer class="grid-footer shadow-t">
 
-		<div class="d-flex align-self-center flex-end w-70 ">
-			<a href="#"><img class="ml-10" src="./assets/img/facebook-logo.png"  width="50px" alt="Facebook"></a>
-			<a href="#"><img class="ml-10" src="./assets/img/whatsapp-logo.png"  width="50px" alt="WhatsApp"></a>
-			<a href="#"><img class="ml-10" src="./assets/img/instagram-logo.png"  width="50px" alt="Instagram"></a>
+		<div class="section-footer-1 d-flex flex-start">
+			<a href="#inicio" class="logo-a">
+				<img src="./assets/img/Logo.PNG" alt="Logo" width="100px">
+				<span class="logo-footer" >Coffee</span>
+			</a>
 		</div>
+
+		<div class="section-footer-2 d-flex flex-end items-center">
+			<a href="#"><img  src="./assets/img/facebook-logo.png"  width="50px" alt="Facebook"></a>
+			<a href="#"><img  src="./assets/img/whatsapp-logo.png"  width="50px" alt="WhatsApp"></a>
+			<a href="#"><img  src="./assets/img/instagram-logo.png"  width="50px" alt="Instagram"></a>
+		</div>
+
 	</footer>
 
 

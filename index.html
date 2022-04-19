@@ -9,27 +9,28 @@
 	<link rel="stylesheet" href="./pages/assets/css/flex-box.css">
 	<link rel="stylesheet" href="./pages/assets/css/margin-padding.css">
 	<link rel="stylesheet" href="./pages/assets/css/width-height.css">
+	<link rel="stylesheet" href="./pages/assets/css/grid.css">
 </head>
 
 <body class="text-color">
 
-	<!-- HEADER2 -->
+	<!-- HEADER -->
 
-	<header class="grid-header" >
+	<header class="grid-header shadow">
 
-        <a href="#inicio" >
+        <a href="#inicio" class="section-h-1 logo-a" >
 			<img src="./pages/assets/img/Logo.PNG" alt="Logo" width="100px"  	>
-			<span >Coffee</span>
+			<span class="logo" >Coffee</span>
 		</a>
 
-		<nav>
-			<ul >
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="pages/nosotros.html">Nosotros</a></li>
-				<li><a href="pages/productos.html">Productos</a></li>
-				<li><a href="pages/contacto.html">Contacto</a></li>
-				<li><a href="pages/eventos_y_promociones.html">Eventos y Promociones</a></li>
-				<li><a href="pages/resena.html">Reseñas</a></li>
+		<nav class="section-h-2">
+			<ul class="nav-ul h-full">
+				<li><a class="nav-li-a" href="index.html">Inicio</a></li>
+				<li><a class="nav-li-a" href="pages/nosotros.html">Nosotros</a></li>
+				<li><a class="nav-li-a" href="pages/productos.html">Productos</a></li>
+				<li><a class="nav-li-a" href="pages/contacto.html">Contacto</a></li>
+				<li><a class="nav-li-a" href="pages/eventos_y_promociones.html">Eventos y Promociones</a></li>
+				<li><a class="nav-li-a" href="pages/resena.html">Reseñas</a></li>
 			</ul>
 		</nav>
 
@@ -41,7 +42,7 @@
 
 			<!-- HERO IMG -->
 		<section>
-				<img src="./pages/assets/img/cafe-letras.png" alt="Hero" style="height: 100vh;" width="100%"> 
+				<img class="hero" src="./pages/assets/img/cafe-letras.png" alt="Hero"> 
 		</section>
 			<!-- FIN HERO IMG -->
 
@@ -49,62 +50,59 @@
 
 		<section >
 		
-			<h1 >!!!Prueba nuestros nuevos productos!!!</h1>
+			<h1 class="titulo">!!!Prueba nuestros nuevos productos!!!</h1>
 
 					<!-- INICIO CONTENIDO #1 -->
 
-					<div>
-						<div >
+					
+			<div  class="grid-index ">
 
-							<div>
+							<div class="grid-intex-contenido-1">
 								<div>
-									<h2>¿Conocías el Café Moca?</h2> 
-									<h3>Descubre tu nuevo sabor favorito</h3>
-									<span>
+									<h2 class="d-flex flex-center pt-25">¿Conocías el Café Moca?</h2> 
+									<h3 class="d-flex flex-center pt-25">Descubre tu nuevo sabor favorito</h3>
+									<span class="d-flex flex-center pt-25">
 										Una deliciosa preparación donde se combina lo mejor del café y el chocolate para lograr una sensación indescriptible. Pedila ya y disfruta de esta exquisita receta.
 									</span>	
 								</div>
 								
-								<div>
-									<img  src="./pages/assets/img/nuevo-cafe-moka.png" class="w-70" alt="Imagen" >
+								<div class="d-flex flex-center">
+									<img  src="./pages/assets/img/nuevo-cafe-moka.png" class="w-60" alt="Imagen" >
 								</div>
 							</div>
-
-							<div class="w-50">
+						
+							
+							<div class="grid-intex-contenido-2 ">
 								<img src="./pages/assets/img/cafemoka.PNG" width="100%"  alt="Imagen" >
 							</div>
 
-						</div>
+			</div>
+						<!-- FIN CONTENIDO #1 -->
+
+						<!-- INICIO CONTENIDO #2 -->
+			<div class="grid-index">
+
+				<div class="grid-index-contenido-1">
+					<div>
+						<h2 class="d-flex flex-center pt-25">¿Conocías el Café Bombom?</h2> 
+						<h3 class="d-flex flex-center pt-25">Descubre tu nuevo sabor favorito</h3>
+						<span class="d-flex flex-center pt-25">
+							Una deliciosa preparación donde se combina lo mejor del café y el chocolate para lograr una sensación indescriptible. Pedila ya y disfruta de esta exquisita receta.
+						</span>	
 					</div>
-
-					<!-- FIN CONTENIDO #1 -->
-
-
-					<!-- INICIO CONTENIDO #2 -->
-
-					<div >
-						<div >
-
-							<div>
-								<div>
-									<h2>¿Conocías el Café Bombom?</h2> 
-									<h3>Descubre tu nuevo sabor favorito</h3>
-									<span>
-										Una deliciosa preparación donde se combina lo mejor del café y el chocolate para lograr una sensación indescriptible. Pedila ya y disfruta de esta exquisita receta.
-									</span>		
-								</div>
-								
-								<div>
-									<img  src="./pages/assets/img/cafe-bombom-tabla.png" class="w-70" alt="Imagen" >
-								</div>
-							</div>
-
-							<div >
-								<img src="./pages/assets/img/cafebombom.png" class="w-80 " alt="Imagen" >
-							</div>
-
-						</div>
+					
+					<div class="d-flex flex-center">
+						<img  src="./pages/assets/img/cafe-bombom-tabla.png" class="w-60 " alt="Imagen" >
 					</div>
+				</div>	
+			
+				
+				<div class="grid-index-contenido-2">
+					<img src="./pages/assets/img/cafebombom.png" width="100%"  alt="Imagen" >
+				</div>
+
+			</div>
+
 
 				<!-- FIN CONTENIDO #2 -->
 
@@ -114,14 +112,16 @@
 
 	<!-- FOOTER -->
 
-	<footer >
+	<footer class="grid-footer shadow-t">
 
-		<a href="#inicio">
-			<img src="./pages/assets/img/Logo.PNG" alt="Logo" width="100px">
-			<span >Coffee</span>
-		</a>
+		<div class="section-footer-1 d-flex flex-start">
+			<a href="#inicio" class="logo-a">
+				<img src="./pages/assets/img/Logo.PNG" alt="Logo" width="100px">
+				<span class="logo-footer" >Coffee</span>
+			</a>
+		</div>
 
-		<div>
+		<div class="section-footer-2 d-flex flex-end items-center">
 			<a href="#"><img  src="./pages/assets/img/facebook-logo.png"  width="50px" alt="Facebook"></a>
 			<a href="#"><img  src="./pages/assets/img/whatsapp-logo.png"  width="50px" alt="WhatsApp"></a>
 			<a href="#"><img  src="./pages/assets/img/instagram-logo.png"  width="50px" alt="Instagram"></a>

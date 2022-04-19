@@ -1,10 +1,18 @@
 /* class width */
+.w-90{
+    width: 90%;
+}
+
 .w-80{
     width: 80%;
 }
 
 .w-70{
     width: 70%;
+}
+
+.w-60{
+    width: 60%;
 }
 
 .w-50{
@@ -21,4 +29,8 @@
 
 .w-full{
     width: 100%;
+}
+
+.h-full{
+    height: 100%;
 }
